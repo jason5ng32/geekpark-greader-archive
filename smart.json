@@ -1,0 +1,8 @@
+{
+  "packages": {
+    "bower": {}
+  },
+  "bower": {
+    "normalize.css": "3.0.2"
+  }
+}
