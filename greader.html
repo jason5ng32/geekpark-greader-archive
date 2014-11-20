@@ -3,9 +3,112 @@
 </head>
 
 <body>
-  <nav></nav>
-  <article>
-  </article>
-  <aside></aside>
+  <header class="header">
+    <div class="content">
+      <a href="www.geekpark.net" class="logo"></a>
+      <nav class="nav">
+        <ul class="l">
+          <li><a href="javascript;">首页</a></li>
+          <li><a href="javascript;">极客观察</a></li>
+          <li><a href="javascript;">极客广播</a></li>
+          <li><a href="javascript;">极客活动</a></li>
+          <li><a href="javascript;">极客工作吧</a></li>
+        </ul>
+        <ul class="r">
+          <li><a href="javascript;">搜索</a></li>
+          <li><a href="javascript;">关注我们</a></li>
+          <li><a href="javascript;">我要写观察</a></li>
+          <li>
+            <a href="javascript;">
+              <img alt="头像" src=""/>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="content">
+    <article class="main">
+      <h1 class="title">Google Reader Archive Project (Alpha) ：</h1>
+      <hr class="seperator">
+      <p>Google Reader 将于 2013 年 7 月 1 日正式关闭。作为科技爱好者最常用的在线工具之一，用户多年积累的数据无疑依然具有重要的价值。Google 虽然提供了用户数据导出功能，但由于以 JSON 的格式呈现，对于普通用户来说并不友好。</p>
+      <p>本工具的目的是将用户从 Google Reader 导出的数据转换为便于查看的 HTML 网页，包含简单的交互功能，同时尽量保留大家熟悉的 Google Reader 页面风格。</p>
+      <ul class="process">
+        <li class="step">
+          <div class="round-bg">
+            <div class="round green">
+              <div class="icon upload"></div>
+            </div>
+          </div>
+          <label>上传数据</label>
+        </li>
+        <li class="arr"></li>
+        <li class="step">
+          <div class="round-bg">
+            <div class="round blue">
+              <div class="icon convert"></div>
+            </div>
+          </div>
+          <label>在线转换</label>
+        </li>
+        <li class="arr"></li>
+        <li class="step">
+          <div class="round-bg">
+            <div class="round green">
+              <div class="icon download"></div>
+            </div>
+          </div>
+          <label>下载查看</label>
+        </li>
+      </ul>
+      <input name="upload-file" class="upload-btn" type="button" value="上传文件"/>
+      <div class="ps">
+        <label>说明：</label>
+        <ol>
+          <li>请上传您从 <a class="blue-a-tag dot-underline" href="https://www.google.com/takeout/?pli=1#custom:reader">Google Takeout</a> 导出的 Google Reader zip 打包文件（请勿修改文件名）；</li>
+          <li>数据仅用于本项目用途，极客公园不会公开您的个人数据；</li>
+          <li>上传文件大小限制在 15m 以内，支持每个用户最多 3 次上传和转换自己的 ZIP 档案(如遇到错误，请通过右侧的反馈按钮通知我们)。</li>
+        </ol>
+      </div>
+    </article>
+    <aside class="info">
+      <section class="related">
+        <h2 class="sub-title">Google Reader 的替代品</h2>
+        <hr class="seperator subtitle-seperator">
+        <ul class="two-columns">
+          <li><a href="javascript:;">Feedly</a></li>
+          <li><a href="javascript:;">inoreader</a></li>
+          <li><a href="javascript:;">The Old Reader</a></li>
+          <li><a href="javascript:;">NetNewsWire</a></li>
+          <li><a href="javascript:;">Reeder</a></li>
+          <li><a href="javascript:;">Flipboard</a></li>
+          <li><a href="javascript:;">Google Currents</a></li>
+          <li><a href="javascript:;">Fever!</a></li>
+        </ul>
+      </section>
+      <section class="related">
+        <h2 class="sub-title">阅读极客公园相关文章</h2>
+        <hr class="seperator subtitle-seperator">
+        <ul class="topics">
+          <li><a class="dot-underline" href="javascript:;">假如Google Reader消失了...</a></li>
+          <li><a class="dot-underline" href="javascript:;">Feedly是如何成为Google Reader关闭之后用户首选的？</a></li>
+          <li><a class="dot-underline" href="javascript:;">工具会死，阅读永生</a></li>
+        </ul>
+      </section>
+      <section class="note">
+        <div class="info-icon"></div>
+        <div class="detail">
+          <h2 class="sub-title">联系我们</h2>
+          <ul>
+            <li>市场合作：<a class="dot-underline" href="mailto:market@geekpark.net">market@geekpark.net</a></li>
+            <li>一般联系：<a class="dot-underline" href="mailto:contact@geekpark.net">contact@geekpark.net</a></li>
+            <li>联系电话：010-85711956</li>
+            <li>公司地址：北京市朝阳区东四环中路41号，嘉泰国际大厦1328室（<a href="http://goo.gl/vnr55">地图</a>）</li>
+          </ul>
+        </div>
+        <div class="clear-fix"></div>
+      </section>
+    </aside>
+  </div>
   <footer></footer>
 </body>
