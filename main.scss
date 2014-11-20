@@ -216,7 +216,8 @@ $smaller-round: 110px;
       background: url();
       color: #109eff;
       &::before {
-        content: '\25cf\a0';
+        content: "\00b7";
+        margin-right: 10px;
       }
     }
   }
@@ -261,6 +262,7 @@ $smaller-round: 110px;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
+  color: #333333;
 }
 
 .upload-btn {
