@@ -2,8 +2,9 @@
 
 [原页面](http://old.geekpark.net/lab/google_reader)
 
-## 当前进度
-只完成了样式，未来会补充上逻辑。
+## 待做事项
+[ ] 尝试使用JS完成解压，压缩
+[ ] 还原算法（Orz 好懒得看以前的代码）
 
 ## 其他
 使用了[Meteor.js](https://github.com/meteor/meteor)，只是图方便，顺手。
