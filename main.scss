@@ -287,15 +287,29 @@ $smaller-round: 110px;
   color: #333333;
 }
 
-.upload-btn {
-  display: block;
+.fileupload {
+  position: relative;
   margin: 20px auto;
   padding: 10px 30px;
-  border: 0;
+  width: 70px;
+  height: 20px;
+  text-align: center;
+  overflow: hidden;
+  font-size: 1.2em;
+  color: #FFFFFF;
   border-radius: 2px;
   background: #49ACD0;
-  color: #FFFFFF;
   &:hover {
     background: #44AAAA;
+  }
+  input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    opacity: 0.0;
+    opacity: 0;
+    font-size: 300px;
+    height: 200px;
   }
 }

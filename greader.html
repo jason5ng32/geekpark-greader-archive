@@ -62,7 +62,7 @@
           <label>下载查看</label>
         </li>
       </ul>
-      <input name="upload-file" class="upload-btn" type="button" value="上传文件"/>
+      {{> upload}}
       <div class="ps">
         <label>说明：</label>
         <ol>
@@ -113,3 +113,10 @@
   </div>
   <footer></footer>
 </body>
+
+<template name="upload">
+  <div class="fileupload">
+    <input type="file"/>
+    上传文件
+  </div>
+</template>
